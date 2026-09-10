@@ -132,4 +132,4 @@ WingMan-X/
 
 ---
 
-Built by **S A M** – Intelligent automation for IT Operations.
+WingMan ITOps is distributed under the terms defined in `LICENSE`.
