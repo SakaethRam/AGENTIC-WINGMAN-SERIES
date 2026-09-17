@@ -1,0 +1,17 @@
+version: "3.9"
+
+# Linux-only, due to ALSA device passthrough. See docs/DOCKER.md for
+# why this doesn't work the same way on macOS/Windows Docker Desktop.
+
+services:
+  wingman-x:
+    build: .
+    image: wingman-x
+    devices:
+      - "/dev/snd:/dev/snd"
+    environment:
+      - WINGMAN_GEMINI_API_KEY=${WINGMAN_GEMINI_API_KEY:-}
+      - WINGMAN_AIRTABLE_PAT=${WINGMAN_AIRTABLE_PAT:-}
+      - WINGMAN_AIRTABLE_BASE_ID=${WINGMAN_AIRTABLE_BASE_ID:-}
+    stdin_open: true
+    tty: true
