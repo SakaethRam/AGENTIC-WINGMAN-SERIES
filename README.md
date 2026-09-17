@@ -1,6 +1,4 @@
-# WingMan ITOps: Agentic AI for IT Operations
-
-## Introduction
+# WingMan Series: Agentic AI for IT Operations
 
 **WingMan X** is a powerful, voice-driven AI assistant built for strategy tracking, task management, and intelligent conversation. It combines **Gemini AI**, **CRM Integration**, **persistent memory**, and **multilingual speech** (English & Hindi) into a seamless, hands-free productivity tool.
 
